@@ -1,0 +1,46 @@
+Finding a Remainder in JavaScript
+
+Example
+
+5 % 2 = 1 because
+Math.floor(5 / 2) = 2 (Quotient)
+2 * 2 = 4
+5 - 4 = 1 (Remainder)
+
+17 % 2 = 1 (17 is Odd)
+48 % 2 = 0 (48 is Even)
+
+Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
+
+const remainder = 11 % 3;
+Again, I thought it was a *lot* harder than it looks, but it said it in the wording: "11 divided by 3." so there it is.
+
+Compound Assignment With Augmented Addition
+
+myVar = myVar + 5;
+
+One such operator is the += operator.
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
+6 would be displayed in the console.
+
+Convert the assignments for a, b, and c to use the += operator.
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+// Only change code below this line
+a = a + 12;
+b = 9 + b;
+c = c + 7;
+
+I had to cheat; I have ZERO idea what exactly they're asking for. SO...it's:
+
+a += 12;
+b += 9;
+c += 7;
+
+and that works.
